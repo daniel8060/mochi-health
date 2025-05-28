@@ -6,6 +6,8 @@ This is a simple internal tool designed to help support agents log and visualize
 
 Built as part of the Data Scientist, Operations – SF take-home prompt for Mochi Health.
 
+An important note -- once I deployed to the server, I noticed it was in UTC 0 time, so if you are on the West Coast like me, you might be confused about inputting data but not seeing the chart update. This is because we're 7 hours behind the server time so anything entered after 1700 will appear in _tomorrow's_ data. 
+
 ---
 
 ## 🚀 Features
@@ -100,5 +102,8 @@ If this were an internal Friday hack, here’s what I would prioritize next:
 
 4. **Collaborate with SMEs:**  
    Consult support agents to refine the emoji/mood list to better match their day-to-day ticket experiences.
+
+5. **Align on a time standard:**
+    Ensure the data entry time is properly recorded according to the appropriate timezone. 
 
 ---
